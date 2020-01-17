@@ -6,6 +6,6 @@ FROM = os.environ.get('MAILGUN_FROM')
 ALERT_TIMEOUT = 10
 COLLECTION = "alerts"
 
- = "https://api.mailgun.net/v3/<>.mailgun.org/messages"
-API_KEY = "key-<>"
-FROM = "Mailgun Sandbox <postmaster@<>.mailgun.org>"
+old-url = "https://api.mailgun.net/v3/<>.mailgun.org/messages"
+old-API_KEY = "key-<>"
+old-FROM = "Mailgun Sandbox <postmaster@<>.mailgun.org>"
